@@ -10,7 +10,17 @@ import Pagination from "./Pagination";
 import { Context } from "../utils/ContextApi";
 
 const SearchResult = () => {
-    return <div>Search result</div>;
+    return (
+        <>
+           <div className="flex flex-col min-h-[80vh]">
+            <SearchResultHeader/>
+           </div>
+           <main className="flex">
+
+           </main>
+           <Footer/>
+        </>
+    );
 };
 
 export default SearchResult;
